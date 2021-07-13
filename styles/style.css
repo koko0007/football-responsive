@@ -1,0 +1,83 @@
+body{
+    /* poppins font */
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+
+}
+.worldcup-fontpage{
+    display: flex;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+
+}
+.left-side{
+    margin-top: 207px;
+    margin-left: 156px;
+    margin-right: 102px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-side-title{
+    margin: 0;
+    padding: 0;
+}
+.left-side-title h1{
+    line-height: 80px;
+    word-wrap:break-word;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 27px;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+/* button style  */
+.btn{
+    
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    margin-bottom: 0;
+    
+}
+
+.btn:hover{
+    background-image:linear-gradient(red,#E02C6D,rgb(223, 49, 49),rgb(167, 36, 36));
+}
+.btn a,i{
+    
+    color: #FFFFFF;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.right-side{
+    width: 50%;
+    margin-top: 153px;
+}
+.right-side .player-photo{
+    width: 556.01px;
+    height: 438px;
+    margin-right: 140.99px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.right-side:hover .player-photo{
+    
+    transform: rotate(-720deg);
+
+}
