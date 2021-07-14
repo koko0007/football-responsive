@@ -299,7 +299,7 @@ margin-left: 180px;
     }
     /* sponsor or partner */
     .partner{
-    margin-left: 5px;
+    margin-left: 15px;
     }
     .partner h1{
         
@@ -309,13 +309,15 @@ margin-left: 180px;
     }
     .patner-image{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-row-gap: 20px;
-        grid-column-gap: 10px;
+        grid-template-columns: 1fr;
+        
+        
+        grid-column-gap: 25px;
         
     }
     .partner img{
-        width:80%;
+        margin: auto;
+        width:70%;
     }
     .football-logo img{
         width: 280px;
