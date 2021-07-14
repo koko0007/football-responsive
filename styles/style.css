@@ -1,18 +1,23 @@
 body{
     /* poppins font */
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-.container{
+main{
+    width: 1440px;
+    /* height: 3750px; */
+}
+.worldcup{
 
     background-color: #2D25A0;
-    width: 1440px;
+    
     height: 677px;
 
 }
 .worldcup-fontpage{
     display: flex;
     background-color: #2D25A0;
-    width: 1440px;
+    
     height: 677px;
 
 }
@@ -76,8 +81,215 @@ body{
     margin-right: 140.99px;
     transition: width 2s, height 2s, transform 2s;
 }
+/* transform effect */
+
 .right-side:hover .player-photo{
     
     transform: rotate(-720deg);
 
+}
+
+/* players details section */
+.Players-deatails{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.players{
+    /* width: auto; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 45px;
+    grid-column-gap: 30px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+
+    border: 2px solid whitesmoke;
+}
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+}
+.player-description h1{
+    /* margin-top: 16px; */
+    margin: 16px 0 0 0;
+    font-size: 28px;
+    color: #18191F;
+
+}
+.player-description p{
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+hr{
+    margin-top: 35px;
+    margin-bottom:35px ;
+}
+.watch-live{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 70px;
+}
+.video-caption{
+    
+    width: auto;
+    text-align: center;
+    
+}
+.YT{
+    
+    width: 5%;
+}
+.video-title h1{
+    color: #18191F;
+}
+
+/* sponsor or partner */
+.partner{
+margin-left: 180px;
+}
+.partner h1{
+    
+    text-align: start;
+    padding: 0px 0px 50px 0;
+    font-size: 2em;
+}
+.patner-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 100px;
+    
+}
+.partner img{
+    width:30%;
+}
+
+/* footer  */
+
+.end{
+    position:static;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 63px;
+}
+.football-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-icon{
+    display: flex;
+    gap: 14px;
+    padding-top:20px ;
+    padding-bottom: 20px ;
+}
+.icon  {
+    color: gray;
+   font-size: 30px;
+ 
+}
+.copyright h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* media queries */
+/* mobile-devices */
+@media only screen and (max-width:688px){
+    main{
+        margin: 0;
+        width: 360px;
+        height: 695px;
+    }
+    .worldcup{
+        
+        width: 360px;
+        height: 695px;
+    }
+    .worldcup-fontpage{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        height: 695px;
+        
+    }
+    .left-side{
+        margin-top: 112px;
+        margin-left: 16px;
+        margin-right: 66px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .left-side-title h1{
+        margin-top: 0;
+        padding-top:0 ;
+        line-height: 50px;
+        word-wrap: none;
+        
+        
+        
+        padding-bottom: 30px;
+        font-weight: bold;
+        font-size: 36px;
+         
+    }
+    .btn{
+        margin-bottom: 50px;
+    }
+    .right-side{
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 15px;
+        padding-top: 0;
+        
+    }
+    .right-side .player-photo {
+        width: 329px;
+        height: 259.17px;
+        margin-right: 16px;   
+        transition: width 2s, height 2s, transform 2s;
+    }
+    .player-photo{
+        margin-bottom: 61.83px;;
+    }
+    /* transform effect */
+    
+    .right-side:hover .player-photo{
+        
+        transform: rotate(-720deg);
+    
+    }
+    /* players details section */
+    .Players-deatails{
+        margin-top: 47px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .players{
+        /* width: auto; */
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-row-gap:24px;
+       
+    }
+    .player{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        
+
+        border: 2px solid whitesmoke;
+    }
+    
+    
 }
