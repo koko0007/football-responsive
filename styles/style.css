@@ -279,7 +279,7 @@ margin-left: 180px;
         margin-right: 15px;
     }
     .players{
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr ;
         grid-row-gap:24px;
@@ -311,7 +311,7 @@ margin-left: 180px;
         
     }
     .partner img{
-        width:90%;
+        width:80%;
     }
     .football-logo img{
         width: 280px;
