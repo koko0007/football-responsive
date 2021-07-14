@@ -206,7 +206,8 @@ margin-left: 180px;
 @media only screen and (max-width:688px){
     main{
         
-        
+        margin: 0;
+        padding: 0;
         width: 360px;
         height: 695px;
     }
